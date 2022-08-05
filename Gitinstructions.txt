@@ -1,0 +1,44 @@
+Hi Guys,
+
+I am writting instructions below to introduce u with git.😊
+Note: Dot '.' in git command indicate to perform operation in current working directory/repository.
+
+For Credentials and Account on Git and GitHub.
+1. Create Account on Github and install Git on ur Pc
+2. Open ur disire folder for this project.
+3. Now open 'Git Bash' in it by right click and select git bash.
+4. Write command->: git init {Press enter} {It will make folder as git environment}
+5. Write command->: git config --global user.name "your name" {<-write ur name inside double quaotes}
+6. Write command->: git config --global user.email "your email" {<-write ur email inside double quaotes}{write that email which u used for github}
+
+For Downloading Respository:
+
+1. Create Account on Github and install Git on ur Pc
+2. Visit Link of Main Repository->: https://github.com/LovishChhura/MovieRecommendationSystem
+3. Fork Main Repository. A copy of repository will be created with ur name on it👍
+4. Open ur disire folder for this project.
+5. Now open 'Git Bash' in it by right click and select git bash.
+6. Write command->: git init {Press enter} {It will make folder as git environment}
+7. Write command->: git pull <ur repository name>
+8. Now Repository will get downloaded there.🎉
+
+
+For Commit:
+1. Open Git Bash in that folder
+2. Write command->: git init
+3. Write command->: git add . {<-You have to put dot there}{it means add this directory to Staging area
+4. Write command->: git commit -m "message u want to convey with git" {<- this whole was command message is written inside double quotes} {it will add to git respository of ur Pc}
+
+Commit is like a picture of items in diectory at that time. We can revert to any instance of time like time machine.
+
+For Uploading to GitHub:
+1. After making commit only.
+2. Write command->: git remote add origin <url of ur git respository> {<-Don't write <> backets}
+3. Write command->: git push {it will upload to github}
+
+Now Data is uploaded into ur GitHub respository. U have to make new 'pull request' to change in Main repository.
+See this video-> https://www.youtube.com/watch?v=_NrSWLQsDL4 
+
+->Stay Updated with Main Repository.😜
+
+I hope these will make you easy and comfortable💖 
